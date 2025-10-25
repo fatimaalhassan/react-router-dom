@@ -7,9 +7,7 @@ import { Route, Routes } from 'react-router';
 
 import NavBar from './components/NavBar/NavBar';
 
-import { Link } from 'react-router';
 import PokemonDetails from './components/PokemonDetails/PokemonDetails';
-import { useParams } from 'react-router';
 
 import PokemonForm from './components/PokemonForm/PokemonForm';
 

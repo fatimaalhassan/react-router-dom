@@ -17,6 +17,7 @@ const PokemonForm = (props) => {
 
   const handleChange = ({ target }) => {
     setFormData({ ...formData, [target.name]: target.value });
+    navigat('/pokemon')
   };
 
   return (
